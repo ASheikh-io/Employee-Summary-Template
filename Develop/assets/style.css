@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-font {
+    font-size: 14px;
+}
+
+.footer-margin {
+    margin-top: 50px;
+}
+
