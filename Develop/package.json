@@ -1,5 +1,5 @@
 {
-  "name": "unit10hw",
+  "name": "employee_summary_template",
   "version": "1.0.0",
   "description": "OOP and testing for week 10 homework",
   "main": "app.js",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/stevetrilogy/unit10hw.git"
   },
-  "author": "",
+  "author": "Ahmed Sheikh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/stevetrilogy/unit10hw/issues"
