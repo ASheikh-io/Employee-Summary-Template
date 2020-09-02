@@ -19,6 +19,8 @@ const promptQuestions = (type) => {
 
 const startApp = () => {
     console.log("Please build your team.");
+
+    
 };
 
 startApp();
