@@ -13,22 +13,37 @@ const render = require("./lib/htmlRenderer");
 
 const employees = [];
 
+// Function to prompt user for questions
 const promptQuestions = (type) => {
     return inquirer.prompt(questions[type]);
 };
 
+// Function to start the team generator app
 const startApp = () => {
+    // Initial display message
     console.log("Please build your team.");
-
-    
+    // Prompt manager questions first
+    promptQuestions("manager").then((manager) => {
+        // Create new variable for manager 
+        const newManager = new Manager(manager.name, manager.id, manager.email, manager.office);
+        // Add manager to employees array
+        employees.push(newManager);
+        // Push other entries into their arrays
+        questions.ids.push(manager.id);
+        questions.emails.push(manager.email);
+        questions.offices.push(manager.office);
+        // Call for new employee function
+        addNewEmployee();
+    });
 };
 
+// New employee 
 startApp();
 
 
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
- //new Engineer ()
+//new Engineer ()
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
 // generate and return a block of HTML including templated divs for each employee!
