@@ -5,7 +5,7 @@
 
 This application will dynamically create a team of engineers and interns. The user will be given a set of questions about each employee. The user will be asked the name, id , email, and role of the employee. The user will be able to pick how many people he/she wants on the team. I did have some trouble trying to figure out to display answers for the questions. I had help making this application but i would not have finished this app if I didnt recieve the given support.
 
-live Demo: 
+
 
 # Installation
 
@@ -17,13 +17,13 @@ live Demo:
 
 # screenshots
 
-![Screen Shot 2020-08-30 at 10 19 13 PM]()
+![Screen Shot]()
 
 
-![Screen Shot 2020-08-30 at 10 17 42 PM]()
+![Screen Shot]()
 
 
-![Screen Shot 2020-08-30 at 10 12 03 PM]()
+![Screen Shot]()
 
 
 # License
