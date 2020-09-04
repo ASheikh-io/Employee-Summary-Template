@@ -10,7 +10,7 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
-const employees = [];
+const employeeList = [];
 
 // Function to build Engineer
 buildEngineer = () => {
@@ -153,17 +153,17 @@ buildEngineer = () => {
       {
         type: "input",
         name: "id",
-        message: "Manager's ID#?"
+        message: "What is the manager's ID number?"
       },
       {
         type: "input",
         name: "email",
-        message: "Manager's email address?",
+        message: "What is the manager's email address?",
       },
       {
         type: "input",
         name: "officeNumber",
-        message: "This team's office number?"
+        message: "What is the team's office number?"
   
       }
     ])
