@@ -26,13 +26,6 @@ live Demo:
 ![Screen Shot 2020-08-30 at 10 12 03 PM]()
 
 
-# Tests
-
-All tests passed with flying colors
-
-![Screen Shot 2020-08-30 at 10 31 33 PM](https://user-images.githubusercontent.com/65634748/91677450-b6607400-eb10-11ea-8544-a8ec425e0e03.png)
-
-
 # License
 
 This repository is licensed under the MIT license
@@ -51,6 +44,6 @@ https://www.youtube.com/watch?v=NYnxW8j0OEc&t=27s
 
 If there are any questions abou this application you can reach me at
 
-Email: andresaaramirez@aol.com
+Email: ahsheikh.a@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/andres-ramirez-8b07487b/
+LinkedIn: https://www.linkedin.com/in/ahmed-sheikh-04240/
