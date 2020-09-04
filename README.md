@@ -15,16 +15,6 @@ This application will dynamically create a team of engineers and interns. The us
 4. Install npm inquirer
 5. Run node app.js
 
-# screenshots
-
-![Screen Shot]()
-
-
-![Screen Shot]()
-
-
-![Screen Shot]()
-
 
 # License
 
