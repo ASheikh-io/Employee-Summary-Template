@@ -177,7 +177,6 @@ buildEngineer = () => {
         employeeList.push(newEmployee);
   
         console.log("\nGreat! Now let's start adding employees! \n");
-        console.log(officeNumber);
   
         buildEmployeeList();
   
